@@ -1,0 +1,27 @@
+{
+  "name": "nodechatsockets",
+  "version": "1.0.0",
+  "description": "Chat with Node JS y Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianVarela/NodeChatSockets.git"
+  },
+  "author": "Fabian Varela Bonett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabianVarela/NodeChatSockets/issues"
+  },
+  "homepage": "https://github.com/FabianVarela/NodeChatSockets#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
